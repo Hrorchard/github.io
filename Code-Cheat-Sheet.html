@@ -1,0 +1,195 @@
+<html>
+    <header class="page-header">
+        <title>Css Typography</title>
+        <link rel="stylesheet" href="Code-Cheat-Sheet.css">
+        <h1>Css Typography</h1>
+        <h3>Css properties that allow you to define text properties</h3>
+    </header>
+    <nav>
+
+    </nav>
+    <body> 
+        <header calss="topic-header">
+            <h2>Color</h2>
+            <div>Defines the color of the text.</div>
+        </header>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">Color: transparent;</p>
+                <div>Applies a <strong>transparent</strong> color to the text. The text will still take up the <em>space</em> it should</div>
+            </header>
+            <aside class="example-preview">
+                <div class="example-browser">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="example-output">
+                    <div style="color: transparent">Hello World</div>
+                </div>
+            </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">Color: Red;</p>
+                <div>You can use <strong>140 +</strong>diffrent colors</div>
+            </header>
+        <asside class="example-preview">
+                <div class="example-browser">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            <div class="example-output">
+                <div style="color:red">Hello World</div>
+            </div>
+        </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">Color: #05ffb0</p>
+                <div>You can use <strong>hexadecimal</strong> color codes.</div>
+            </header>
+            <aside class="example-preview">
+                <div class="example-browser">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="example-output">
+                    <div style="color:#35ffb0">Hello World</div>
+                </div>
+            </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight"> Color: rgb(50,115,220);</p>
+                <div> You can use rgb() color codes</div>
+                <ul>
+                    <li>the first value is <code>red</code></li>
+                    <li>the second value is <code>green</code></li>
+                    <li>the third value is <code>blue</code></li>
+                </ul>
+                <p>Each of them can have a value between 0 and 255</p>
+            </header>
+            <aside class="example-preview">
+                <div class="example-browser">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="example-output">
+                    <div style="color:rgb(50,115,220)">Hello World</div>
+                </div>
+            </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">Color: rgba(0,0,0,0.5);</p>
+                <div>You can use <strong>rgba()</strong> color codes:</div>
+                <ul>
+                    <li>the firts values are for <code>rgb</code></li>
+                    <li>the 4th value is for the <code>apha</code> channel and defines the opacity of the color</li>
+                </ul>
+                <p>The alpha value can go from 0 (tranparent) to 1 (opaque)</p>
+            </header>
+            <aside class="example-preview">
+            <div class="example-browser">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <div class="example-output">
+                <div style="color:rgba(0,0,0,0.5)">Hello World</div>
+            </div>
+            </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">Color: hsl(14,100%,53%);</p>
+                <div>You can use <strong>hsl()</strong> color codes:</div>
+                <ul>
+                    <li>the first value is for <code>hue</code> and can go from <strong>0</strong> to <strong>359</strong></li>
+                    <li>the second value is for <code>saturation</code> and go from <strong>0%</strong> to <strong>100%</strong></li>
+                    <li>the third value is for <code>luminosity</code> and go from <strong>0%</strong> to <strong>100%</strong></li>
+                </ul>
+            </header>
+            <aside class="example-preview">
+            <div class="example-browser">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <div class="example-output">
+                <div style="color: hsl(14,100%,53%)">Hello World</div>
+            </div>
+            </aside>
+        </section>
+        <section class="example">
+            <header class="example-header">
+                <p class="highlight">You can use <strong>hsla()</strong> color codes:</p>
+                <ul>
+                    <li>the first 3 values are for <code>hsl</code></li>
+                    <li>the 4th value is for the <code>alpha</code> channel and defines the opacity of the color</li>
+                </ul>
+                <p>The alpha value can go from zero <strong>0</strong> (transparent) to one <strong>1</strong> (opaque)</p>
+            </header>
+            <aside class="example-preview">
+            <div class="example-browser">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <div class="example-output">
+                <div style="color: hsla(14,100%,50%, 0.6)">Hello World</div>
+            </div>
+            </aside>
+        </section>
+        
+
+        <table>
+            <h1>Font Size</h1>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Discription</th>
+            </tr>
+            <tr>
+                <td>font-size: Medium;</td>
+                <td>Medium</td>
+                <td>The text will use the browser's defult medium size</td>
+            </tr>
+            <tr>
+                <td>font-size: 20px;</td>
+                <td>Pixel Values</td>
+                <td>The pixel value determines the size of text</td>
+            </tr>
+            <tr>
+                <td>font-size: 1.2em;</td>
+                <td>Em</td>
+                <td>a scalable unit of measurement that defines the size of an element relative to its parent's font size, the value will cascade if used on child elements.</td>
+            </tr>
+            <tr>
+                <td>font-size: 1.2rem;</td>
+                <td>RM: root elements</td>
+                <td>a unit of measurement that represents the font size of the root element. This means that 1rem equals the font size of the html elemen and reamin context independent.</td>
+            </tr>
+            <tr>
+                <td>font-size: 90%</td>
+                <td>Percentage</td>
+                <td>percentage values act like em values.The value is relative to the parent's font-size.As a result, the value will cascade if used on child elements.</td>
+            </tr>
+            <tr>
+                <td>font-size: smaller;</td>
+                <td>Relitive Keywords</td>
+                <td>The value is relative to the parent. and you can eather go smaller or larger</td>
+            </tr>
+            <tr>
+                <td>font-size: x-large</td>
+                <td>Spicific Relitive Keywords</td>
+                <td>The value is relative to the root element. &lt;html&gt;</td>
+            </tr>
+        </table>
+    
+    </body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    font-family:"arial", Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.highlight{
+    font-size: 19px;
+    background-color: rgba(193, 241, 255, 0.986);
+    color: black;
+    padding: 2px 4px;
+    display: inline;
+}
+.example-browser i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #999999;
+    border-radius: 50%;
+    margin: 5px;
+  }
+.page-header {
+    display: block;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.topic-header{
+
+    text-align: left;
+}
+.example {
+    -webkit-box-align:start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem 3rem 0
+}
+.example-header,.example-preview {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1
+}
+
+.example-header {
+    padding-right: 2rem;
+    width: 60%
+}
+
+.example-preview {
+    width: 40%
+}
+.example-browser {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #e0e0e0;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    margin-left: auto;
+}
+.example-output {
+    border: 1px solid #e6e6e6;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+    font-size: 1em;
+    padding: 0.5em;
+    background-color:#fff;
+}
+.example-output-div {
+    padding: 0.8em 1em;
+    position: relative
+}
+table,th,td {
+    text-align: center;
+    color:#303030;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dcdcdc;
+    background-color: #42a8aa;
+}
+th{
+    Color: #000
+
+}
